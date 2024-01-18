@@ -1,0 +1,27 @@
+.homePage {
+  position: relative; // Add position relative for positioning pseudo-element
+  padding: 20px;
+  background: url("https://nyctastemakers.com/wp-content/uploads/2021/10/NYCTM-Home-Banner-39.png"),
+    radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color-burn;
+
+  height: 100vh;
+  color: #ffffff; // Add a suitable text color for better visibility
+  overflow: hidden; // Hide overflowing content
+  display: table;
+  width: 100%;
+  background-position: center;
+  height: 350px;
+  color: white;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff; // Add a suitable text color for better visibility
+  }
+
+
+}
+

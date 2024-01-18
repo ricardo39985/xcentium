@@ -1,0 +1,24 @@
+.text-block {
+    color: rgb(255, 255, 255);
+    padding: 2px;
+  }
+.image {
+  width: 100%;
+  height: 100%;
+  padding: auto;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.card-container{
+    position: relative;
+    background-color: #415667 ;
+    border-radius: 8px;
+}
+.link{
+  text-decoration: none;
+ 
+}
