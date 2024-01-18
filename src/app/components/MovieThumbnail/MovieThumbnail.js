@@ -4,7 +4,7 @@ import styles from './MovieThumbnail.module.scss';
 
 const MovieThumbnail = ({ movie }) => {
   return (
-    <Link href={`/movies/${movie.id}`} className={styles.link}>
+    <Link href={`/movies/details/${movie.id}`} className={styles.link}>
       <div className={styles['card-container']}>
         <Image
           className={styles.image}
